@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio </title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navegação -->
+    <header class="navbar">
+        <div class="logo">&lt;Dev<span>/&gt;</span></div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Formas Flutuantes do Fundo -->
+    <div class="area">
+        <ul class="circles">
+            <li></li><li></li><li></li><li></li><li></li>
+            <li></li><li></li><li></li><li></li><li></li>
+        </ul>
+    </div>
+
+    <!-- Seção Início -->
+    <section id="inicio" class="hero context">
+        <div class="hero-container">
+            <div class="glass-card hero-content">
+                <p class="saudacao">Olá, eu sou Fayder Guilherme</p>
+                <h1 class="nome">Estudante de ADS & Desenvolvedor.</h1>
+                <h2 class="subtitulo">Sou apaixonado por <span class="typewriter-text" data-texts='["aprender novas tecnologias", "construir sistemas seguros", "resolver problemas reais"]'></span></h2>
+                <p class="resumo">
+                    Construo projetos pessoais para aplicar na prática o que aprendo na faculdade. Trabalho com Python, Flask, JavaScript e bancos de dados, sempre com foco em criar boas arquiteturas. Estou em busca da minha primeira oportunidade profissional na área!
+                </p>
+                <div class="hero-btns">
+                    <a href="#projetos" class="btn primary-btn">Ver Meus Projetos</a>
+                    <a href="#contato" class="btn secondary-btn">Buscando Estágio / Vagas</a>
+                </div>
+            </div>
+            
+            <!-- ESPAÇO PARA A SUA FOTO -->
+            <div class="hero-image-wrapper">
+                <!-- Substitua 'sua-foto.jpg' pelo caminho da sua imagem -->
+                <img src="assets/WhatsApp Image 2026-10-04 at 19.06.14.jpeg" alt="Minha Foto de Perfil" class="profile-photo">
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Sobre -->
+    <section id="sobre" class="about reveal">
+        <div class="glass-card about-content">
+            <h2 class="section-title"><span class="highlight">01.</span> Sobre Mim</h2>
+            <div class="about-flex">
+                <div class="about-text">
+                    <p>"Olá! Sou estudante de Análise e Desenvolvimento de Sistemas (ADS) e desenvolvedor de software. Tenho experiência prática na criação de interfaces responsivas com HTML, CSS e JavaScript, além de construir back-ends robustos e APIs utilizando Python, Flask e SQL (bancos de dados relacionais). Gosto de entender os projetos de ponta a ponta — do rascunho da arquitetura até o código final. Atualmente, estou em busca de oportunidades profissionais onde eu possa aplicar meus conhecimentos, resolver problemas reais e evoluir na área de tecnologia."</p>
+                    <p>"Meus projetos são construídos sobre dois pilares: segurança e desempenho. Gosto de explorar a arquitetura de software aplicando padrões como MVC e MVT, desenvolvendo APIs claras e garantindo que o Back-end se comunique com as interfaces da forma mais eficiente possível."</p>
+                </div>
+                <div class="about-techs">
+                    <p>Tecnologias que estudo e utilizo:</p>
+                    <ul class="tech-list">
+                        <li>Python & Flask</li>
+                        <li>JavaScript (ES6+)</li>
+                        <li>PostgreSQL, MySQL & SQLite</li>
+                        <li>HTML & CSS</li>
+                        <li>APIs RESTful</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Projetos -->
+    <section id="projetos" class="projects reveal">
+        <h2 class="section-title"><span class="highlight">02.</span> Projetos Pessoais & Acadêmicos</h2>
+        <div class="project-grid">
+            
+            <!-- Projeto 1 -->
+            <a href="" target="_blank" class="project-card glass-card">
+                <div class="project-image-container">
+                    <img src="assets/flask (1).png" alt="Print do projeto Api ecommerce" class="project-img">
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">API Ecommerce <span class="link-icon">↗</span></h3>
+                    <p class="project-description">
+                        Uma API RESTful robusta construída para gerenciar o Back-end de uma loja virtual. O sistema possui autenticação de usuários, operações completas de banco de dados (CRUD) para produtos e toda a lógica de negócio de um carrinho de compras, desde a adição de itens até o checkout seguro.
+                    </p>
+                    <ul class="project-tech-list">
+                        <li>Python</li>
+                        <li>Flask</li>
+                        <li>SQLite</li>
+                        <li>ORM</li>
+                    </ul>
+                </div>
+            </a>
+
+            <!-- Projeto 2 -->
+            <a href="link deploy" target="_blank" class="project-card glass-card">
+                <div class="project-image-container">
+                    <img src="assets/login.png" alt="print da tela login" class="project-img">
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Tela de Login <span class="link-icon">↗</span></h3>
+                    <p class="project-description">
+                        Interface de autenticação moderna e totalmente responsiva, construída com foco em UI/UX Design. O projeto explora o conceito visual de Glassmorphism (efeito de vidro translúcido) e utiliza Flexbox para um alinhamento perfeito em qualquer dispositivo, criando uma porta de entrada elegante para sistemas web.
+Tecnologias: HTML5, CSS3.
+                    </p>
+                    <ul class="project-tech-list">
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+            
+                    </ul>
+                </div>
+            </a>
+
+            <!-- Projeto 3 -->
+            <a href="link deploy" target="_blank" class="project-card glass-card">
+                <div class="project-image-container">
+                    <img src="assets/links.png" alt="Print da tela link" class="project-img">
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Agregador de links Dinâmico <span class="link-icon">↗</span></h3>
+                    <p class="project-description">
+                       Uma página responsiva desenvolvida para centralizar links profissionais e redes sociais. O grande diferencial é a implementação nativa de alternância de temas (Dark e Light Mode) utilizando manipulação de DOM e variáveis CSS, garantindo uma interface fluida e moderna.
+                    </p>
+                    <ul class="project-tech-list">
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </div>
+            </a>
+
+        </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato" class="contact reveal">
+        <div class="glass-card contact-content">
+            <h2 class="section-title"><span class="highlight">03.</span> Qual o próximo passo?</h2>
+            <h2 class="contact-title">Busca por Oportunidades</h2>
+            <p>Estou ativamente em busca de uma vaga de estágio ou como desenvolvedor júnior. Se a sua empresa procura alguém dedicado, com vontade de aprender e que já coloca a mão na massa, minha caixa de entrada está aberta!</p>
+            <div class="contact-btns">
+                <a href="mailto:guilhermefayder@gmail.com" class="btn primary-btn">Me mande um E-mail</a>
+                <a href="https://linkedin.com/in/FayderDev" target="_blank" class="btn secondary-btn">Conectar no LinkedIn</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="glass-card footer-card">
+        <p>Projetado e desenvolvido por Fayder Guilherme; 2026</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
